@@ -6,7 +6,7 @@ export function Comment(){
         <div className={styles.comment}>
             <img src='https://github.com/gabrielsideprojects.png'/>
 
-            <div style={styles.commentBox}>
+            <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
@@ -21,7 +21,7 @@ export function Comment(){
 
                     <p>Muito bom Devon, parabéns!! </p>
                 </div>
-            </div>
+        
             <footer>
                 <button>
                     <ThumbsUp/>
@@ -29,5 +29,6 @@ export function Comment(){
                 </button>
             </footer>
         </div>
+     </div>
     )
 }
